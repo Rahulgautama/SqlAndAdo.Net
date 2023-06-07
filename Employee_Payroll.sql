@@ -1,1 +1,2 @@
-Insert into employee_payroll values('Suman',1221,'2022-03-12','F','Manger',939948883,'Lucknow',232,232,123,122,1000),('Mohan',5834,'2022-04-16','M','Accountant',923948883,'Kanpur',22,32,13,122,12984)
+create Table Employee_Department(Id int primary key IDENTITY(1,1),DepartmentId int,DepartmentName varchar,Salary decimal,StartDate date,Gender char(1))
+
