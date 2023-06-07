@@ -8,7 +8,7 @@ namespace SqlAdo.Net
         static void Main(string[] args)
         {
             AdoDotNet ado = new AdoDotNet();
-            ado.CreateDatabase();
+            ado.Select();
         }
     }
 }
