@@ -1,3 +1,12 @@
-alter table employee_payroll add Gender char(1) 
+select sum(salary) as TotalSum from employee_payroll where Gender='M'
 
-UPDATE employee_payroll set Gender='M' where name = 'Bill' or name ='Charlie';
+select Avg(salary) as TotalSum from employee_payroll where Gender='F'
+
+select Min(salary) as TotalSum from employee_payroll where Gender='F'
+
+select Max(salary) as TotalSum from employee_payroll where Gender='M'
+
+select Count(salary) as TotalSum from employee_payroll where Gender='F'
+
+SELECT SUM(salary) FROM employee_payroll WHERE Gender = 'M' GROUP BY Gender;
+
