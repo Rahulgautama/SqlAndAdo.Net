@@ -1,1 +1,1 @@
-alter table employee_payroll add BasicPay decimal,Deductions decimal, TaxablePay decimal,IncomeTax decimal, NetPay decimal
+Insert into employee_payroll values('Suman',1221,'2022-03-12','F','Manger',939948883,'Lucknow',232,232,123,122,1000),('Mohan',5834,'2022-04-16','M','Accountant',923948883,'Kanpur',22,32,13,122,12984)
